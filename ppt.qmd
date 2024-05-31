@@ -1,0 +1,88 @@
+--- 
+date: "2024-05-31"
+format: 
+  revealjs:
+    theme: themes/uu.scss
+    incremental: true   
+    logo: images/HKUST.png
+    footer: "Powered by Quarto | Xinzhuo Huang"
+filters:
+   - lightbox
+lightbox: auto
+editor: 
+    render-on-save: true
+---
+
+# Thesis Workshop {data-background-color="#5A7D9A"}
+
+::: {.r-stack}
+Authoritarian Political Economy
+:::
+
+::: {.footer}
+:::
+
+# {data-background-color="#5A7D9A"}
+
+:::::::::::::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.subtitle}
+
+The impact of hydrogeological events on firms: Evidence from Italy
+
+:::
+:::
+::: {.column width="50%"}
+![](images/abstract.png){fig-align="right" width="800"}
+:::
+::::::::::::::
+
+
+## Research Question
+::: {.theme-section}
+Impact of hydrogeological events on firms’ survival and performance.
+:::
+
+## Literature Review
+::: {.theme-section}
+*Previous literature has yielded mixed evidence*:
+
+- Economies may not recover to the previous trend.
+- Economies may recover to the previous trend and even go faster.
+  
+*Gap in current studies*: 
+
+- Only focus on regional or country-level outcomes while ignoring multiple and less severe events that may also have economic costs.
+:::
+
+## Data and Variables Building: Hydrogeological Events
+::: {.theme-section}
+A complete nationwide dataset of hydrogeological events (floods and landslides) with detailed and reliable spatial and temporal accuracy.
+
+- SECAGN (Semantic Engine to Classify And Geotag News), a semantic search engine that constantly scans the internet (at 30-min intervals) searching for news connected to landslides, floods, or similar phenomena.
+
+- ![](images/tbl-1.png){fig-align="center" width="800"}
+:::
+
+## Hydrogeological Events: Geographic Distribution
+::: {.theme-section}
+![](images/map.png){fig-align="center" width="800"}
+:::
+
+## Data and Variables Building: Firm-level Data
+
+::: {.theme-section}    
+- ![](images/tbl-2.png){fig-align="center" width="800"}
+:::
+
+## Data and Variables Building: Descriptive Statistics
+
+::: {.theme-section}    
+- ![](images/tbl-3.png){fig-align="center" width="800"}
+:::
+
+
+# {data-background-color="#5A7D9A"}
+
