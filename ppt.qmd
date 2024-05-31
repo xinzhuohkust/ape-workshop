@@ -6,6 +6,7 @@ format:
     incremental: true   
     logo: images/HKUST.png
     footer: "Powered by Quarto | Xinzhuo Huang"
+    self-contained: true
 filters:
    - lightbox
 lightbox: auto
@@ -61,10 +62,14 @@ Impact of hydrogeological events on firms’ survival and performance.
 ::: {.theme-section}
 A complete nationwide dataset of hydrogeological events (floods and landslides) with detailed and reliable spatial and temporal accuracy.
 
-- SECAGN (Semantic Engine to Classify And Geotag News), a semantic search engine that constantly scans the internet (at 30-min intervals) searching for news connected to landslides, floods, or similar phenomena.
 
-- ![](images/tbl-1.png){fig-align="center" width="800"}
+![](images/tbl-1.png){fig-align="center" width="350"}
 :::
+
+::: aside
+SECAGN (Semantic Engine to Classify And Geotag News), a semantic search engine that constantly scans the internet (at 30-min intervals) searching for news connected to landslides, floods, or similar phenomena.
+:::
+
 
 ## Hydrogeological Events: Geographic Distribution
 ::: {.theme-section}
@@ -74,13 +79,13 @@ A complete nationwide dataset of hydrogeological events (floods and landslides) 
 ## Data and Variables Building: Firm-level Data
 
 ::: {.theme-section}    
-- ![](images/tbl-2.png){fig-align="center" width="800"}
+![](images/tbl-2.png){fig-align="center" width="800"}
 :::
 
 ## Data and Variables Building: Descriptive Statistics
 
 ::: {.theme-section}    
-- ![](images/tbl-3.png){fig-align="center" width="800"}
+![](images/tbl-3.png){fig-align="center" width="800"}
 :::
 
 
