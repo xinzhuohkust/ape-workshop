@@ -2,6 +2,8 @@
 date: "2024-05-31"
 format: 
   revealjs:
+    smaller: true
+    scrollable: true
     theme: themes/uu.scss
     incremental: true   
     logo: images/HKUST.png
@@ -11,7 +13,7 @@ filters:
    - lightbox
 lightbox: auto
 editor: 
-    render-on-save: true
+    render-on-save: false
 ---
 
 # Thesis Workshop {data-background-color="#5A7D9A"}
@@ -41,12 +43,12 @@ The impact of hydrogeological events on firms: Evidence from Italy
 ::::::::::::::
 
 
-## Research Question
+## Research Question 
 ::: {.theme-section}
 Impact of hydrogeological events on firms’ survival and performance.
 :::
 
-## Literature Review
+## Literature Review 
 ::: {.theme-section}
 *Previous literature has yielded mixed evidence*:
 
@@ -58,7 +60,7 @@ Impact of hydrogeological events on firms’ survival and performance.
 - Only focus on regional or country-level outcomes while ignoring multiple and less severe events that may also have economic costs.
 :::
 
-## Data and Variables Building: Hydrogeological Events
+## Data and Variables Building: Hydrogeological Events 
 ::: {.theme-section}
 A complete nationwide dataset of hydrogeological events (floods and landslides) with detailed and reliable spatial and temporal accuracy.
 
@@ -71,23 +73,50 @@ SECAGN (Semantic Engine to Classify And Geotag News), a semantic search engine t
 :::
 
 
-## Hydrogeological Events: Geographic Distribution
+## Hydrogeological Events: Geographic Distribution 
 ::: {.theme-section}
 ![](images/map.png){fig-align="center" width="800"}
 :::
 
-## Data and Variables Building: Firm-level Data
+## Data and Variables Building: Firm-level Data 
 
 ::: {.theme-section}    
 ![](images/tbl-2.png){fig-align="center" width="800"}
 :::
 
-## Data and Variables Building: Descriptive Statistics
+## Data and Variables Building: Descriptive Statistics 
 
-::: {.theme-section}    
+- Firms located in hit and non-hit areas  
+
 ![](images/tbl-3.png){fig-align="center" width="800"}
-:::
+
+- Firms’ survival
+ 
+![](images/survival.png){fig-align="center" width="800"}
+
+## Results: Survival Analysis
+
+- Cox proportional hazard model
+
+![](images/cox.png){fig-align="center" width="800"}
 
 
-# {data-background-color="#5A7D9A"}
+## Results: Staggered DID
+
+- Difference-in-differences (DID) model
+  
+![](images/did.png){fig-align="center" width="800"}
+
+- Event Study
+
+![](images/event.png){fig-align="center" width="800"}
+
+## Placebo Tests
+
+- Repeated Events
+
+![](images/survival-repeated.png){fig-align="center" width="800"}
+
+![](images/did-repeated.png){fig-align="center" width="800"}
+
 
